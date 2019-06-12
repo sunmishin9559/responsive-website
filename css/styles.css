@@ -1,0 +1,246 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#product-name {
+	float: left;
+	background-color: black;
+	width: 100%;
+	height: 60px;
+}
+
+#product-name h1 {
+	float: left;
+	margin: 0;
+	line-height: 60px;
+	color: white;
+	font-size: 24px;
+	padding-left: 20px;
+}
+
+#main {
+	float: left;
+	background-image: url("../images/main_img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 350px;
+}
+
+#product-explanation {
+	float: left;
+	width: 100%;
+	height: 320px;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 320px;
+}
+
+#product-explanation #explanation {
+	display: inline-block;
+	line-height: normal;
+	vertical-align: middle;
+
+}
+#product-explanation h2 {
+	font-size: 16px;
+	margin: 0;
+	color: #4a4a4a;
+}
+
+#product-explanation h3 {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: #1b1b1b;
+}
+
+#product-explanation p {
+	font-size: 16px;
+	margin: 0;
+	color: #7a7a7a;
+}
+
+#img1 {
+	float: left;
+	background-image: url("../images/img1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 385px;
+}
+
+#img2 {
+	float: left;
+	background-image: url("../images/img2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 200px;
+	line-height: 200px;
+}
+
+#img2 #view-more {
+	text-align: center;
+}
+
+#img2 #view-more a {
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	padding:9px 40px;
+	border: 4px solid white;
+	line-height: normal;
+	vertical-align: middle;
+}
+#img3 {
+	float: left;
+	background-image: url("../images/img3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 200px;
+}
+
+@media (min-width: 768px) {
+	#product-name {
+		float: left;
+		width: 100%;
+		height: 60px;
+	}
+
+	#main {
+		float: left;
+		background-image: url("../images/main_img.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 562px;
+	}
+
+	#product-explanation {
+		float: left;
+		width: 100%;
+		height: 282px;
+		padding-left: 65px;
+		padding-right: 65px;
+		line-height: 282px;
+	}
+
+	#product-explanation #explanation {
+		line-height: normal;
+		vertical-align: middle;
+	}
+
+	#img1 {
+		float: left;
+		background-image: url("../images/img1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 50%;
+		height: 360px;
+	}
+
+	#img2 {
+		float: left;
+		background-image: url("../images/img2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 50%;
+		height: 180px;
+		line-height: 180px;
+	}
+
+	#img2 #view-more a {
+		line-height: normal;
+		vertical-align: middle;
+	}
+
+	#img3 {
+		float: left;
+		background-image: url("../images/img3.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 50%;
+		height: 180px;
+	}
+}
+
+@media (min-width: 992px) {
+	#product-name {
+		float: left;
+		width: 100%;
+		height: 60px;
+	}
+
+	#main {
+		float: left;
+		background-image: url("../images/main_img.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 50%;
+		height: 700px;
+	}
+
+	#product-explanation {
+		float: left;
+		width: 50%;
+		height: 350px;
+		line-height: 350px;
+	}
+
+	#product-explanation #explanation {
+		line-height: normal;
+		vertical-align: middle;
+	}
+
+	#img1 {
+		float: left;
+		background-image: url("../images/img1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 25%;
+		height: 350px;
+	}
+
+	#img2 {
+		float: left;
+		background-image: url("../images/img2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 25%;
+		height: 175px;
+		line-height: 175px;
+	}
+
+	#img2 #view-more a {
+		line-height: normal;
+		vertical-align: middle;
+	}
+
+	#img3 {
+		float: left;
+		background-image: url("../images/img3.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 25%;
+		height: 175px;
+	}
+}
